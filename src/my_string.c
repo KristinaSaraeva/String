@@ -30,11 +30,9 @@ int my_memcmp(const void *str1, const void *str2, my_size_t n) {
 
     if (c1 != c2) {
       if (c1 < c2) {
-        // c1 = (int)c1;
         exit_flag = -1;
         break;
       }
-      // c2 = (int)c2;
       exit_flag = 1;
       break;
     }
@@ -381,7 +379,7 @@ char *my_strtok(char *str, const char *delim) {
   return str;
 }
 
-// five
+// Special string processing functions
 void *my_to_upper(const char *str) {
   char *ret = MY_NULL;
   if (str) {
