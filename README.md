@@ -4,7 +4,7 @@
 
 Implementation of string.h library in C.
 
-_memchr_ searches an array for the first occurrence of a character
+`_memchr_` searches an array for the first occurrence of a character
 _memcmp_ compares two buffers
 _memset_ fills a buffer with a character
 _memcpy_ copies one buffer to another
