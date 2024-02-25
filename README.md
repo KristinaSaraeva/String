@@ -4,43 +4,43 @@
 
 Implementation of string.h library in C.
 
-`_memchr_` searches an array for the first occurrence of a character
-_memcmp_ compares two buffers
-_memset_ fills a buffer with a character
-_memcpy_ copies one buffer to another
-_memmove_ moves one buffer to another
+`memchr` searches an array for the first occurrence of a character
+`memcmp` compares two buffers
+`memset` fills a buffer with a character
+`memcpy` copies one buffer to another
+`memmove` moves one buffer to another
 
-_strcpy_ copies one string to another
-_strncpy_ copies a certain amount of characters from one string to another
-_strcat_ concatenates two strings
-_strncat_ concatenates a certain amount of characters of two strings
-_strcmp_ compares two strings
+`strcpy` copies one string to another
+`strncpy` copies a certain amount of characters from one string to another
+`strcat` concatenates two strings
+`strncat` concatenates a certain amount of characters of two strings
+`strcmp` compares two strings
 
-_strncmp_ compares a certain amount of characters of two strings
-_strchr_ finds the first occurrence of a character
-_strrchr_ finds the last occurrence of a character
-_strspn_ returns the length of the maximum initial segment that consists
+`strncmp` compares a certain amount of characters of two strings
+`strchr` finds the first occurrence of a character
+`strrchr` finds the last occurrence of a character
+`strspn` returns the length of the maximum initial segment that consists
 of only the characters found in another byte string
-_strcspn_ returns the length of the maximum initial segment that consists
+`strcspn` returns the length of the maximum initial segment that consists
 of only the characters not found in another byte string
 
-_strpbrk_ finds the first location of any character in one string, in another string
-_strstr_ finds the first occurrence of a substring of characters
-_strtok_ finds the next token in a byte string
-_strlen_ returns the length of a given string
-_strerror_ returns a text version of a given error code
+`strpbrk` finds the first location of any character in one string, in another string
+`strstr` finds the first occurrence of a substring of characters
+`strtok` finds the next token in a byte string
+`strlen` returns the length of a given string
+`strerror` returns a text version of a given error code
 
 Also implements string processing functions from the String class in C#
 
-_void_ *to_upper(const char *str)
+`void *to_upper(const char *str)`
 Returns a copy of string (str) converted to uppercase. 
 
-_void_ *to_lower(const char *str) Returns a copy of string (str) converted to lowercase. 
+`void *to_lower(const char *str)` Returns a copy of string (str) converted to lowercase. 
 
-_void_ *insert(const char *src, const char *str, size_t start_index)
+`void *insert(const char *src, const char *str, size_t start_index)`
 Returns a new string in which a specified string (str) is inserted at a specified index position (start_index) in the given string (src). 
 
-_void_ *trim(const char *src, const char *trim_chars)
+`void *trim(const char *src, const char *trim_chars)`
 Returns a new string in which all leading and trailing occurrences of a set of specified characters (trim_chars) from the given string (src) are removed.
 
 
