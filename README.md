@@ -16,6 +16,7 @@ Implementation of string.h library in C.
 `strncat` concatenates a certain amount of characters of two strings  
 `strcmp` compares two strings  
 `strncmp` compares a certain amount of characters of two strings  
+
 `strchr` finds the first occurrence of a character  
 `strrchr` finds the last occurrence of a character  
 `strspn` returns the length of the maximum initial segment that consists
@@ -25,6 +26,7 @@ of only the characters not found in another byte string
 `strpbrk` finds the first location of any character in one string, in another string  
 `strstr` finds the first occurrence of a substring of characters  
 `strtok` finds the next token in a byte string  
+
 `strlen` returns the length of a given string  
 `strerror` returns a text version of a given error code  
 
